@@ -1,0 +1,22 @@
+#contacts{
+    margin-top: -100px;
+    padding: 0px;
+}
+.contact{
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 500;
+    color: #A892FF;
+    margin-bottom: 0px;
+    text-align: center;
+    
+    
+}
+
+.email{
+    font-family: poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fafafa;
+    text-align: center;
+}

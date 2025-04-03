@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.skillSection {
+    display: grid;
+    grid-template-columns: 60% 40%; 
+    align-items: center;
+    margin-top: -200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}  
+
+
+  
+/* Image Section */
+.skillsImage {
+    width: 100%;
+    height: 60%; /* Ensure it takes full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.skillsImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+/* Skills Section */
+.skills {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fafafa;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.skillsHeader {
+    font-family: Manrope;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    color: var(--color-bg);
+    
+}
+
+.tabButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.tabButtons button {
+    padding: 0.7rem 1.5rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-family: poppins;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #ccc;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+.tabButtons button:hover {
+    background-color: #bbb;
+}
+
+.tabButtons .activeButton {
+    background-color: var(--color-bg);
+    color: #fafafa;
+}
+
+/* Skill List */
+.skillList {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    background: var(--color-bg);
+    color: #fafafa;
+    padding: 2.5rem;
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.skillList li {
+    font-family: poppins;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    display: list-item;
+    list-style-type: disc
+}
+
+.skillList ul {
+    list-style: disc; /* Ensure bullets show */
+}
+
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .skillSection {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .skillsImage {
+        width: 100%;
+        height: 300px; /* Fixed height for smaller screens */
+    }
+
+    .skillsImage img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tabButtons {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .tabButtons button {
+        flex: 1;
+        min-width: 120px;
+    }
+}

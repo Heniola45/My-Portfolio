@@ -1,0 +1,41 @@
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 1rem 2rem;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #A892FF;
+    padding-top: 1rem;
+    width: 95%;
+}
+
+.copyRight {
+    color: #fff;
+    font-size: 14px;
+}
+
+.headerSocials {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.headerSocials a {
+    color: #A892FF;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.headerSocials a:hover {
+    color: #fff;
+}
+
+

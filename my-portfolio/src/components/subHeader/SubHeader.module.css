@@ -1,0 +1,32 @@
+.subHeaderContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+
+    
+}
+.me{
+    background-color: linear-gradient(var(--color-primary),transparent);
+    width: 22rem;
+    height: 30rem;
+    left: 50%;
+    border-radius: 17rem 17rem 0 0;
+    overflow: hidden;
+    margin-top: 30px;
+    min-width: 0;
+}
+.me img {
+    width: 100%; 
+    min-width: 0;
+}
+img{
+    min-width: 0;
+}
+.scrollDown{
+    transform: rotate(90deg);
+}
+
+a{
+    color: #A892FF;
+}
