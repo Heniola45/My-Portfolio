@@ -1,0 +1,83 @@
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4rem;
+    gap: 4rem;
+    color: var(--color-bg);
+
+}
+
+.frontend{
+    background-color: #fafafa;
+    padding: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.frontend:hover {
+    transform: scale(1.02);
+    
+}
+
+.design{
+    background-color: #fafafa;
+    padding: 2rem;
+    border-radius: 2rem;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.design:hover {
+    transform: scale(1.02);
+    
+}
+
+.projectHeader{
+    font-family: Manrope;
+}
+
+.projectPara{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.buildButton{
+    width: max-content;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    display: inline-block;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    padding: 0.75rem 3rem;
+    transition: var(--transition);
+}
+
+.buildButton:hover{
+    background-color: var(--color-bg);
+}
+
+.designButton{
+    width: max-content;
+    color: var(--color-primary);
+    display: inline-block;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    padding: 0.75rem 3rem;
+    transition: var(--transition);
+}
+
+.designButton:hover{
+    color: var(--color-bg);
+    border: 1px solid var(--color-bg);
+}
+

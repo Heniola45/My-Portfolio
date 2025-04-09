@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Projects.module.css";
+import { Link } from "react-router-dom";
 
 
 function Projects(){
@@ -47,9 +48,9 @@ function Projects(){
        
       </div>
       <div className={styles.btnContainer}>
-                <a href="#projects" className={styles.btnPrimary}>
-                  See Projects
-                </a>
+        <Link to="/projects" className="btn btn-primary">
+          See Projects
+        </Link>
       </div>
                    
                     

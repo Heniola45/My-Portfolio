@@ -1,5 +1,3 @@
-import React from "react"
-import Cv from "../../assets/Hauwa Eniola Cv.pdf"
 import styles from "./Header.module.css"
 function CTA() {
   return (
