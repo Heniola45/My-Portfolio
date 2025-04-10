@@ -19,8 +19,8 @@ const projects = [
       description: "Ticked is a virtual assistant service designed to streamline your day-to-day tasks and maximize your productivity. Whether you’re a busy professional or managing multiple responsibilities, Ticked helps you stay on top of your to-do list with ease.",
       image: tickedImage,
       tech: ["Figma"],
-      figmaLink: "https://www.figma.com/design/gZVzrAyQrhBCUWgjY3qSob/Ticked---New-File--Case-Study-?node-id=6290-40798&t=S1z97iSXmTv3sSL3-1",
-      caseStudyLink: "https://www.figma.com/design/gZVzrAyQrhBCUWgjY3qSob/Ticked---New-File--Case-Study-?node-id=6290-40798&t=S1z97iSXmTv3sSL3-1",
+      figmaLink: "https://www.figma.com/design/irSoR1NzMZG5L3uAdXQtq9/Ticked-Hauwa-s-Copy?node-id=0-1&t=syWLvXngoEZs2FzR-1",
+      caseStudyLink: "https://www.figma.com/design/irSoR1NzMZG5L3uAdXQtq9/Ticked-Hauwa-s-Copy?node-id=0-1&t=syWLvXngoEZs2FzR-1",
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const projects = [
       description: "Axon UI is a sleek, scalable UI library built for designers and developers who want to create modern interfaces faster. Designed in Figma and implemented with React, it provides a growing set of reusable components that are accessible, customizable, and consistent across products. With Axon UI, you can accelerate your workflow while maintaining design integrity from concept to code.",
       image: axonImage,
       tech: ["Figma"],
-      figmaLink: "https://www.figma.com/design/FJCudkY5EhIqaLxUPWhQlU/Axon-UI?node-id=0-1&t=b5VD12GQN9qEFFgd-1",
+      figmaLink: "https://www.figma.com/design/OveVCAFiOVw9OehdbkcAH9/Axon-UI-Hauwa-s-Copy?node-id=0-1&t=tdS7U5ZYm2lcVPiv-1",
       caseStudyLink: "https://github.com/Heniola45/Axon-UI",
     },
     {
@@ -82,8 +82,8 @@ const projects = [
       description: "DevAsk is a modern, developer-focused social Q&A platform inspired by StackOverflow but infused with community-driven features and a vibrant, interactive design. The goal is to provide a space where developers can not only ask technical questions but also build a supportive network and share experiences.",
       image: devAskImage,
       tech: ["Figma"],
-      websiteLink: "https://www.figma.com/design/6D7nFUEI38kEoh1JOToWNo/DevAsk?node-id=0-1&t=vQYc5epR4oBvTp2h-1",
-      caseStudyLink: "https://www.figma.com/design/6D7nFUEI38kEoh1JOToWNo/DevAsk?node-id=0-1&t=vQYc5epR4oBvTp2h-1",
+      websiteLink: "https://www.figma.com/design/2ayXpdwf71KDWsgWUpiPEf/DevAsk-Hauwa-s-Copy?node-id=0-1&t=axxXEZwSI0sKiqbT-1",
+      caseStudyLink: "https://www.figma.com/design/2ayXpdwf71KDWsgWUpiPEf/DevAsk-Hauwa-s-Copy?node-id=0-1&t=axxXEZwSI0sKiqbT-1",
     },
       
   ];

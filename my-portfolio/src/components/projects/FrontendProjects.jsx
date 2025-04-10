@@ -5,6 +5,7 @@ import meetupImage from "../../assets/MeetImage.jpeg";
 import signUpImage from "../../assets/Signup.jpeg"
 import axonImage from "../../assets/Axonui.jpeg"
 import counterImage from "../../assets/Counter.jpeg"
+import calculatorImage from "../../assets/Calculator.jpeg";
 import "./FrontendProjects.css"; 
 import Footer from "../footer/Footer";
 
@@ -39,11 +40,11 @@ const projects = [
     {
         id: 4,
         title: "Calculator App",
-        description: "A clean and modern newsletter sign-up form built using HTML, CSS, and JavaScript. This responsive component features a user-friendly interface with accessible form fields and engaging styling. Upon successful form submission, users receive a visually distinct success message confirming their subscription. The form includes input validation and adapts seamlessly to different screen sizes, making it ideal for landing pages, blogs, and marketing websites.",
-        image: signUpImage,
-        tech: ["HTML", "CSS", "Javascript"],
-        websiteLink: "https://heniola45.github.io/A-Newsletter-Sign-Up-Form/",
-        githubLink: "https://github.com/Heniola45/A-Newsletter-Sign-Up-Form",
+        description: "The Calculator App is a responsive web-based calculator built using React.js. It provides users with a clean and intuitive interface to perform basic arithmetic operations such as addition, subtraction, multiplication, division, percentages, and parentheses handling. Designed with usability and responsiveness in mind, the app works seamlessly across various screen sizes and supports both button clicks and keyboard inputs for accessibility and convenience.",
+        image: calculatorImage,
+        tech: ["React"],
+        websiteLink: "https://heniola45.github.io/CalculatorApp/",
+        githubLink: "https://github.com/Heniola45/CalculatorApp",
     },
     {
         id: 5,

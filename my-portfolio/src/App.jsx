@@ -5,6 +5,7 @@ import Nav from "./components/Nav/nav.jsx";
 import ProjectsDetails from "./components/projects/ProjectsDetail.jsx";
 import FrontendProjects from "./components/projects/FrontendProjects.jsx";
 import DesignProjects from "./components/projects/DesignProjects.jsx";
+import ContactPage from "./components/contact/ContactPage.jsx";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/projects" element={<ProjectsDetails />} />
         <Route path="/frontendproject" element={<FrontendProjects />} />
         <Route path="/designproject" element={<DesignProjects/>} />
+        <Route path="/contact" element={<ContactPage/>} />
       </Routes>
     </Router>
   );
