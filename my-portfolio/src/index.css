@@ -19,7 +19,7 @@
     --transition : all 400ms ease;
     --container-width-lg : 75%;
     --container-width-md : 86%;
-    --container-width-ms : 90%;
+    --container-width-sm : 90%;
 
 
 }
@@ -110,29 +110,3 @@ img{
     object-fit: cover;
 }
 
-
-/* ========================MEDIA QUERIES   MEDIA MEDIUM ============================ */
-
-@media screen and (max-width :1024px)
-{
-    .container{
-        width: var(--container-width-md);
-    }
-
-    section {
-        margin-top: 6rem;
-    }
-}
-
-/* ========================MEDIA QUERIES   MEDIA SMALL ============================ */
-
-@media screen and (max-width :600px)
-{
-    .container{
-        width: var(--container-width-ms);
-    }
-
-    section > h2 {
-        margin-top: 2rem;
-    }
-}

@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-
     
 }
 .me{
@@ -29,4 +28,24 @@ img{
 
 a{
     color: #A892FF;
+}
+
+@media screen and (max-width: 800px) {
+
+    *{
+        padding: 0rem;
+        margin: 0;  
+        box-sizing: border-box; 
+    }
+
+    .subHeaderContainer{
+        width: 800px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        padding-bottom: 5rem;
+        
+    }
 }

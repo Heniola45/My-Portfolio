@@ -12,12 +12,9 @@
     padding-bottom: 0px;
 }  
 
-
-  
-/* Image Section */
 .skillsImage {
     width: 100%;
-    height: 60%; /* Ensure it takes full height */
+    height: 60%; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,8 +28,6 @@
     object-position: top;
 }
 
-
-/* Skills Section */
 .skills {
     width: 100%;
     height: 60%;
@@ -81,7 +76,6 @@
     color: #fafafa;
 }
 
-/* Skill List */
 .skillList {
     list-style-type: disc;
     padding-left: 1.5rem;
@@ -102,21 +96,25 @@
 }
 
 .skillList ul {
-    list-style: disc; /* Ensure bullets show */
+    list-style: disc;
 }
 
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
     .skillSection {
         grid-template-columns: 1fr;
-        text-align: center;
-        gap: 3rem;
+        padding-bottom: 10rem;
     }
 
     .skillsImage {
         width: 100%;
-        height: 300px; /* Fixed height for smaller screens */
+        height: auto;
     }
 
     .skillsImage img {
@@ -124,13 +122,140 @@
         height: 100%;
     }
 
+    .skills{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+
     .tabButtons {
         width: 100%;
         flex-wrap: wrap;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .tabButtons button {
         flex: 1;
-        min-width: 120px;
+        min-width: 120px;   
+    }
+
+    .skillList {
+        list-style-type: disc;
+        background: var(--color-bg);
+        color: #fafafa;
+        padding: 2rem;
+        border-radius: 12px;
+        max-width: 300px;
+
+    }
+
+    .skillList li {
+        font-family: poppins;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+        display: list-item;
+        list-style-type: disc
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    #about{
+        padding: 0rem;
+        margin: 0;  
+        box-sizing: border-box; 
+    }
+
+    .skillList {
+        list-style-type: disc;
+        padding-left: 1.5rem;
+        background: var(--color-bg);
+        color: #fafafa;
+        padding: 2.5rem;
+        border-radius: 12px;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .skillsHeader{
+        font-size: 1.2rem;
+    }
+    .tabButtons button{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    #about{
+        padding: 0rem;
+        margin: 0;  
+        box-sizing: border-box; 
+    }
+
+    .skillList {
+        list-style-type: disc;
+        padding-left: 1rem;
+        background: var(--color-bg);
+        color: #fafafa;
+        padding: 2.5rem;
+        border-radius: 12px;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .skillList li {
+        font-family: poppins;
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+        display: list-item;
+        list-style-type: disc
+    }
+
+   
+}
+
+@media screen and (min-width: 800px) {
+
+    #about{
+        padding: 0rem;
+        margin: 0;   
+    }
+
+    .skillSection {
+        display: grid;
+        grid-template-columns: 60% 40%; 
+        align-items: center;
+        margin-top: -200px;
+        margin-bottom: 0px;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }  
+    
+    .skillsImage {
+        width: 100%;
+        height: 80%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .skillsImage img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .skills {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #fafafa;
+        padding-top: 32px;
+        padding-bottom: 32px;
     }
 }
