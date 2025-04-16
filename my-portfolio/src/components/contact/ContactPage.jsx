@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom"; // <-- import useNavigate
+import { useNavigate } from "react-router-dom";
 import Footer from "../footer/Footer";
 import "./ContactPage.css";
 
 function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(false);
-  const navigate = useNavigate(); // <-- initialize navigate
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();

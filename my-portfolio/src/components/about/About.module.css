@@ -178,7 +178,6 @@
     .mainAbout{
         width: 800px;
         height: auto;
-        border: 2px solid red;
     }
  
     .aboutMeImage {
@@ -192,10 +191,12 @@
     }
 
     .aboutContainer{
-        display: grid;
-        grid-template-rows: 50% 50%;
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 2rem;
-        border: 2px solid red;
     }
     .heading{
         text-align: center;
@@ -203,16 +204,24 @@
     }
     
     .aboutContent p {
-        width:120%;
         margin : 2rem 0 2.6rem;
         font-family: Poppins;
         font-size: 16px;
         font-weight: 100;
         color: #fafafa;
     }
+
+    .aboutMe{
+        width: 70%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+        display: grid;
+        place-items: center;
+    }
     
    
-  }
+}
   
   @media screen and (max-width: 430px) {
 
@@ -256,6 +265,7 @@
         border: 1px solid var(--color-primary);
         padding: 0.5rem 1.5rem;
         transition: var(--transition);
+        text-decoration: underline;
        
     }
       
@@ -283,4 +293,40 @@
     display: none;
     }
 
+    .heading{
+        text-align: center;
+        
+    }
+
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    
+
+    
+
+}
+
+@media screen and (min-width: 1025px) {
+
+    .heading{
+        text-align: center;
+        
+    }
+
+    .mainAbout{
+    
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .aboutContainer{
+        
+        padding-bottom: 0px;
+    }
 }

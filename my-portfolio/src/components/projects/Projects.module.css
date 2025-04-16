@@ -88,3 +88,47 @@
     border: transparent;
     color: var(--color-bg);
 }
+
+@media screen and (max-width: 800px) {
+
+    #projects{
+        padding: 0rem;
+        padding-bottom: 10rem;
+        margin: 0; 
+        box-sizing: border-box;
+        width: 800px;  
+        height: auto;
+        
+    }
+
+    .aboutCards{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        gap: 1rem;
+    }
+
+    .aboutCard {
+        background: #1E1B26; 
+        color: #fafafa; 
+        padding: 1rem;
+        border: 1px solid #A892FF;;
+        border-radius: 12px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #projects{
+        padding: 0rem;
+        padding-bottom: 10rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        margin: 0; 
+        box-sizing: border-box;
+        
+        
+    }
+
+}
