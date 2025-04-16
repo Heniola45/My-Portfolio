@@ -155,7 +155,7 @@
     }
 
     .buildButton{
-        width: max-content;
+        width: fit-content;
         background-color: var(--color-primary);
         color: var(--color-bg);
         display: inline-block;
@@ -168,7 +168,7 @@
     }
 
     .designButton{
-        width: max-content;
+        width: fit-content;
         color: var(--color-primary);
         display: inline-block;
         border-radius: 0.4rem;
@@ -178,6 +178,60 @@
         font-size: 1rem;
         transition: var(--transition);
     }
+
+    .buildButton:hover{
+        background-color: var(--color-bg);
+        border: none;
+    }
+
+    .designButton:hover{
+        background-color: var(--color-bg);
+        border: none;
+    }
     
+}
+
+@media screen and (max-width: 300px) {
+
+    *{
+        padding: 0rem;
+        margin: 0;   
+    }
+
+    .buildButton{
+        width: fit-content;
+        background-color: var(--color-primary);
+        color: var(--color-bg);
+        display: inline-block;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px solid var(--color-primary);
+        padding: 0.3rem 0.5rem;
+        font-size: 1rem;
+        transition: var(--transition);
+    }
+
+    .designButton{
+        width: fit-content;
+        background-color: var(--color-primary);
+        color: var(--color-bg);
+        display: inline-block;
+        border-radius: 0.4rem;
+        cursor: pointer;
+        border: 1px solid var(--color-primary);
+        padding: 0.3rem 0.5rem;
+        font-size: 1rem;
+        transition: var(--transition);
+    }
+
+    .buildButton:hover{
+        background-color: var(--color-bg);
+        border: none;
+    }
+
+    .designButton:hover{
+        background-color: var(--color-bg);
+        border: none;
+    }
 }
 

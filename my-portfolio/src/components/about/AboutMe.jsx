@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./About.module.css"
-import Me from "../../assets/Hauwa.jpeg";
+import Profile from "../../assets/Profile.jpg";
 import { BsLinkedin } from "react-icons/bs";
 import { AiOutlineMail, AiOutlineTwitter } from "react-icons/ai";
 import Cv from '../../assets/Eniola Frontend Cv.Mau.pdf'
@@ -67,7 +67,7 @@ function AboutMe(){
           </div>
 
           <div className={styles.aboutMeImage}>
-            <img src={Me} alt="" />
+            <img src={Profile} alt="" />
           </div> 
            
         </div>

@@ -56,7 +56,6 @@
     width: 100%;
 }
 
-/* Hamburger base */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -75,7 +74,7 @@
     transition: all 0.3s ease;
   }
   
-  /* Hamburger to X animation */
+
   .hamburger.open span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
   }

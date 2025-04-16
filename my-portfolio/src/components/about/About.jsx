@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import styles from "./About.module.css"
-import Me from "../../assets/Hauwa.jpeg";
+import Profile from "../../assets/Profile.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -17,7 +17,7 @@ function About(){
             
             <div className={styles.aboutMe}>
               <div className={styles.aboutImage}>
-              <img src={Me} alt="" />
+              <img src={Profile} alt="" />
               </div>
             </div>
 
