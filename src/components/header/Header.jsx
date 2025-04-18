@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Header.module.css"
-import Nav from "../Nav/nav";
+import Nav from "../nav/Nav";
 
 
 function Header() {
