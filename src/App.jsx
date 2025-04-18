@@ -5,7 +5,7 @@ import ProjectsDetails from "./components/projects/ProjectsDetail.jsx";
 import FrontendProjects from "./components/projects/FrontendProjects.jsx";
 import DesignProjects from "./components/projects/DesignProjects.jsx";
 import ContactPage from "./components/contact/ContactPage.jsx";
-import Layout from "./components/nav/LayOut.jsx";
+import Layout from "./components/nav/Layout.jsx";
 
 
 function App() {
