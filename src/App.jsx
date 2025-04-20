@@ -10,8 +10,7 @@ import Layout from "./components/nav/Layout.jsx";
 
 function App() {
   return (
-    <Router>
-      <Routes>
+    <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Homepage />} />
           <Route path="/about" element={<AboutMe />} />
@@ -21,7 +20,6 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Route>
       </Routes>
-    </Router>
   );
 }
 
