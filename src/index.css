@@ -8,6 +8,13 @@
     list-style: none;
     text-decoration: none;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+  
 
 :root {
     --color-bg : #1E1B26;
@@ -82,7 +89,7 @@ a:hover{
 
 .btn{
     width: max-content;
-    color: var(--color-primary);
+    color: #fafafa;
     display: inline-block;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -100,7 +107,7 @@ a:hover{
 
 .btn-primary{
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: #fafafa;
 
 }
 

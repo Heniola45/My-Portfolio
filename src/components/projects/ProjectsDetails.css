@@ -52,7 +52,7 @@
 .buildButton{
     width: max-content;
     background-color: var(--color-primary);
-    color: var(--color-bg);
+    color: #fafafa;
     display: inline-block;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -63,6 +63,7 @@
 
 .buildButton:hover{
     background-color: var(--color-bg);
+    border: none;
 }
 
 .designButton{
@@ -191,7 +192,7 @@
     
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 390px) {
 
     *{
         padding: 0rem;
@@ -201,7 +202,7 @@
     .buildButton{
         width: fit-content;
         background-color: var(--color-primary);
-        color: var(--color-bg);
+        color: #fafafa;
         display: inline-block;
         border-radius: 0.4rem;
         cursor: pointer;
@@ -212,15 +213,13 @@
     }
 
     .designButton{
-        width: fit-content;
-        background-color: var(--color-primary);
-        color: var(--color-bg);
+        width: max-content;
+        color: var(--color-primary);
         display: inline-block;
         border-radius: 0.4rem;
         cursor: pointer;
         border: 1px solid var(--color-primary);
-        padding: 0.3rem 0.5rem;
-        font-size: 1rem;
+        padding: 0.75rem 3rem;
         transition: var(--transition);
     }
 

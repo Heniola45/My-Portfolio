@@ -148,7 +148,7 @@
 .btn{
     width: max-content;
     background-color: var(--color-primary);
-    color: var(--color-bg);
+    color: #fafafa;
     display: inline-block;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -171,12 +171,14 @@
         padding: 0rem;
         margin: 0; 
         box-sizing: border-box;
-        width: 800px;  
+        width: 100%;
+        max-width: 800px;  
         height: auto;
     }
 
     .mainAbout{
-        width: 800px;
+        width: 100%;
+        max-width: 800px;
         height: auto;
     }
  
@@ -191,7 +193,8 @@
     }
 
     .aboutContainer{
-        width: 800px;
+        width: 100%;
+        max-width: 800px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -258,7 +261,7 @@
     .btn{
         width: max-content;
         background-color: var(--color-primary);
-        color: var(--color-bg);
+        color: #fafafa;
         display: inline-block;
         border-radius: 0.4rem;
         cursor: pointer;
@@ -329,4 +332,80 @@
         
         padding-bottom: 0px;
     }
+}
+
+@media screen and (max-width: 390px) {
+
+    #about{
+        padding: 0rem;
+        margin: 0; 
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 390px;  
+        height: auto;
+    }
+
+    .mainAbout{
+        width: 100%;
+        max-width: 390px;
+        height: auto;
+    }
+ 
+    .aboutMeImage {
+        display: none;
+    }
+    
+    .aboutMeContainer{
+        padding-bottom: 15rem;
+        margin-top: 0px;
+        padding-top: 3rem;
+    }
+
+    .aboutContainer{
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .heading{
+        font-size: 24px;
+        text-align: center;
+        
+    }
+    
+    .aboutContent p {
+        margin : 2rem 0 2.6rem;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 100;
+        color: #fafafa;
+    }
+
+    .aboutMe{
+        width: 70%;
+        aspect-ratio: 1/1;
+        border-radius: 2rem;
+        background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+        display: grid;
+        place-items: center;
+    }
+
+    .aboutCards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .aboutCard{
+        background: var(--color-bg-variant);
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        padding: 1rem;
+        text-align: center;
+        transition: var(--transition);
+    }
+    
+   
 }

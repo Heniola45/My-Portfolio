@@ -10,7 +10,7 @@ import Layout from "./components/nav/Layout.jsx";
 
 function App() {
   return (
-    <Routes>
+      <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Homepage />} />
           <Route path="/about" element={<AboutMe />} />

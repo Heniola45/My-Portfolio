@@ -34,7 +34,8 @@
     }
 
     #contacts{
-        width: 800px;
+        width: 100%;
+        max-width: 800px;
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -104,6 +105,39 @@
     .email{
         font-family: poppins;
         font-size: 0.5rem;
+        font-weight: 300;
+        color: #fafafa;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    #contacts{
+        width: 100%;
+        max-width: 390px;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .contact{
+        font-family: Manrope;
+        font-size: 18px;
+        font-weight: 500;
+        color: #A892FF;
+        margin-bottom: 0px;
+        text-align: center;   
+    }
+    
+    .email{
+        font-family: poppins;
+        font-size: 0.7rem;
         font-weight: 300;
         color: #fafafa;
         text-align: center;

@@ -59,7 +59,7 @@ form textarea {
   
 form button {
     background-color: var(--color-primary);
-    color: var(--color-bg);
+    color: #fafafa;
     padding: 0.8rem 2rem;
     border-radius: 0.5rem;
     border: none;

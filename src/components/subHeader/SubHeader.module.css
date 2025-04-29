@@ -28,6 +28,7 @@ img{
 
 a{
     color: #A892FF;
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -39,7 +40,8 @@ a{
     }
 
     .subHeaderContainer{
-        width: 800px;
+        width: 100%;
+        max-width: 800px;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -47,5 +49,37 @@ a{
         align-items:center;
         padding-bottom: 5rem;
         
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    *{
+        padding: 0rem;
+        margin: 0;  
+        box-sizing: border-box; 
+    }
+
+    .subHeaderContainer{
+        width: 100%;
+        max-width: 390px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        padding-bottom: 5rem;
+        
+    }
+
+    .me{
+        background-color: linear-gradient(var(--color-primary),transparent);
+        width: 14rem;
+        max-width: 100%;
+        height: auto;
+        border-radius: 17rem 17rem 0 0;
+        overflow: hidden;
+        justify-content: center; 
+        align-items: center;    
     }
 }

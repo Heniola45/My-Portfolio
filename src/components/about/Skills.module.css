@@ -108,7 +108,8 @@
     }
 
     .skillSection {
-        width: 800px;
+        width: 100%;
+        max-width:  800px;
         height: auto;
         grid-template-columns: 1fr;
         padding-top: 10rem;
